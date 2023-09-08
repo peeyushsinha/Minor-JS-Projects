@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 3rem auto;
+}
+#block{
+    height: 70px;
+    width: 40px;
+    background-color: aqua;
+    position: relative;
+    top:230px ;
+    left: 560px;
+    animation: move 1s linear infinite;
+}
+@keyframes move{
+    0%{
+left:560px
+    }
+    100%{
+        left: 0px;
+    }
+}
+#dyno{
+    position: relative;
+    top:160px ;
+    left: 0px ;
+}
+#dyno img{
+    height:70px ;
+    width: 67px;
+}
+#result{
+height: 200px;
+width: 400px;
+margin: 3rem auto;
+background-color: cornflowerblue;
+text-align: center;
+border-radius: 20px;
+display:none;
+}
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: cyan;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    text-transform: uppercase;
+}

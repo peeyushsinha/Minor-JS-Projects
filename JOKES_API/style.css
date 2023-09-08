@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+#container {
+    background-color: aliceblue;
+    width: 800px;
+    height: 580px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-family: "pacifico", sans-serif;
+}
+
+#jokebtn {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: aliceblue;
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+}
+
+#jokebtn:hover {
+    background-color:
+        rgb(255, 217, 0);
+    cursor: pointer;
+    color: black;
+    width: 155px;
+    height: 45px;
+    font-size: 1.4rem;
+}
+
+#joketext {
+    max-width: 60%;
+    height: 40%;
+    font-size: 32px;
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    letter-spacing: 1px;
+    color: black;
+    transform: translate(-10%, -10%);
+}
+
+span {
+    font-size: 7rem;
+    position: absolute;
+    left: 38%;
+}
